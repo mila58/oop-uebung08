@@ -27,7 +27,7 @@ public interface TweetSammlung {
 	/**
 	 * @return Ein Iterator über die am häufigsten verwendeten #hashtags, absteigend.
 	 */
-	Iterator<String> topHashTags();
+	Iterator<ueb08.Pair> topHashTags();
 
 	/**
 	 * @return Ein Iterator über die am häufigsten verwendeten @mentions, absteigend.
